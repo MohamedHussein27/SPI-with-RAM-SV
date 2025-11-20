@@ -13,7 +13,7 @@ The testbench is built using a modular layered structure with **transactions, dr
 - **Read Data State:**  
   First received bit on `MOSI` is `1`, followed by `2'b11`.
 
-For more details about the SPI protocol behavior and RTL design, please check the **Design Repository: _(SPI Slave with Single-Port RAM)[https://github.com/MohamedHussein27/SPI_Slave_With_Single_Port_Memory]_**.
+For more details about the SPI protocol behavior and RTL design, please check the **Design Repository: _[SPI Slave with Single-Port RAM](https://github.com/MohamedHussein27/SPI_Slave_With_Single_Port_Memory)_**.
 
 ---
 
