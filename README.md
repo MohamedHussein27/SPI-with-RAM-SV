@@ -3,6 +3,18 @@
 This project verifies an **SPI Slave with a Single-Port RAM** using a SystemVerilog testbench.  
 The testbench is built using a modular layered structure with **transactions, driver, monitor, scoreboard, coverage, and assertions** to ensure correctness and completeness.
 
+## General Specifications
+- **Write Address State:**  
+  First received bit on `MOSI` is `0`, followed by `2'b00`.
+- **Write Data State:**  
+  First received bit on `MOSI` is `0`, followed by `2'b01`.
+- **Read Address State:**  
+  First received bit on `MOSI` is `1`, followed by `2'b10`.
+- **Read Data State:**  
+  First received bit on `MOSI` is `1`, followed by `2'b11`.
+
+For more details about the SPI protocol behavior and RTL design, please check the **Design Repository: (_SPI Slave with Single-Port RAM_)[https://github.com/MohamedHussein27/SPI_Slave_With_Single_Port_Memory]**.
+
 ---
 
 ## Verification Environment Overview
